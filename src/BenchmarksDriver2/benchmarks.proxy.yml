@@ -5,7 +5,7 @@
 # --config benchmarks.proxy.yml --scenario proxy-envoy --profile aspnet-physical
 
 imports:
-  - https://raw.githubusercontent.com/aspnet/Benchmarks/master/src/BombardierClient/bombardier.yml
+  - https://raw.githubusercontent.com/aspnet/Benchmarks/halter73/https-proxy/src/BombardierClient/bombardier.yml
 
 variables:
     path: /

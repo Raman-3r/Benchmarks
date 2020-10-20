@@ -55,7 +55,7 @@ jobs:
   downstream:
     source:
       repository: https://github.com/aspnet/benchmarks.git
-      branchOrCommit: master
+      branchOrCommit: halter73/https-proxy-test
       project: src/Downstream/Downstream.csproj
     readyStateText: Application started.
     variables:
@@ -65,7 +65,7 @@ jobs:
   yarp:
     source:
       repository: https://github.com/microsoft/reverse-proxy.git
-      branchOrCommit: master
+      branchOrCommit: halter73/benchmark-scenarios
       project: samples/BenchmarkApp/BenchmarkApp.csproj
     readyStateText: Application started.
     arguments: '--urls {{serverScheme}}://*:5000 --clusterUrls {{downstreamScheme}}://{{downstreamAddress}}:{{downstreamPort}}'

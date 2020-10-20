@@ -53,7 +53,7 @@ variables:
   value: --config https://raw.githubusercontent.com/aspnet/Benchmarks/master/scenarios/signalr.benchmarks.yml
 
 - name: proxyJobs
-  value: --config https://raw.githubusercontent.com/aspnet/Benchmarks/master/scenarios/proxy.benchmarks.yml
+  value: --config https://raw.githubusercontent.com/aspnet/Benchmarks/halter73/https-proxy-test/scenarios/proxy.benchmarks.yml
 
 - name: h2loadConnectionsCount # Default value for h2load. Should be redefined for each job
   value: 28
